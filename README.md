@@ -28,23 +28,30 @@ This is the **backend** component of the **XperBooks** full-stack application. B
 
 ## 📁 Folder Structure
 ```
-project1-backend-xperbooks/
-├── books/ # App containing models, views, serializers
-│ ├── migrations/
+XperBooks-backend/
+├── Books/
+│ ├── init.py
 │ ├── admin.py
+│ ├── apps.py
 │ ├── models.py
 │ ├── serializers.py
+│ ├── tests.py
+│ ├── urls.py
 │ ├── views.py
-│ └── urls.py
+│ ├── migrations/
+│ │ ├── 0001_initial.py
+│ │ └── init.py
 │
-├── project1_backend/ # Django project config
+├── XperBooks/
+│ ├── init.py
+│ ├── asgi.py
 │ ├── settings.py
 │ ├── urls.py
 │ └── wsgi.py
 │
+├── db.sqlite3
 ├── manage.py
-├── requirements.txt
-└── .env
+└── .gitignore
 ```
 
 ## ⚙️ Setup Instructions
