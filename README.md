@@ -128,3 +128,16 @@ The backend API will be available at: http://localhost:8000/api
 📝 License
 ---
   This project is open-source and available under the MIT License.
+  ```yaml
+---
+
+### ✅ How to Use
+
+1. Save the above content as `README.md` in your **backend project root folder**.
+2. Run:
+
+```bash
+git add README.md
+git commit -m "Add backend README"
+git push
+```
